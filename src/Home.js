@@ -35,6 +35,9 @@ export default function Home() {
           <p>
             <strong>Mô tả:</strong> {bookData.description}
           </p>
+          <p>
+            <img src={bookData.image} alt={bookData.name} width={400} />
+          </p>
           <input
             type="hidden"
             name="description"
