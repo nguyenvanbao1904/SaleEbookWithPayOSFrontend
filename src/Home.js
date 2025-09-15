@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./styles.css";
 
 export default function Home() {
   const [bookData, setBookData] = useState(null);
